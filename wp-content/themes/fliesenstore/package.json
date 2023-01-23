@@ -1,0 +1,43 @@
+{
+    "name": "ecw-theme",
+    "version": "1.0.0",
+    "description": "WebPack for ECW Theme",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config=webpack.config.prod.js",
+        "dev": "webpack --config=webpack.config.dev.js",
+        "watch": "webpack --config=webpack.config.dev.js --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ecommerce-werkstatt/ecw-click-dummy.git"
+    },
+    "keywords": [
+        "theme",
+        "skin"
+    ],
+    "author": "eCommerce Werkstatt GmbH",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.8",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^4.0.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "postcss-loader": "^7.0.1",
+        "sass": "^1.54.7",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.6",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.10.1",
+        "webpack-merge": "^5.8.0"
+    },
+    "dependencies": {
+        "mmenu-light": "^3.2.0",
+        "swiper": "^8.4.4",
+        "typed.js": "^2.0.12"
+    }
+}
